@@ -57,34 +57,34 @@ export default function Layout({ children, title, description, home }) {
 
             <br/>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Menu</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">Menu</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link href="/blog">
-                                  <a class="nav-link" >Blog</a>
+                                  <a className="nav-link" >Blog</a>
                                 </Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link href="/about">
-                                  <a class="nav-link" >About</a>
+                                  <a className="nav-link" >About</a>
                                 </Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link href="/contact">
-                                  <a class="nav-link" >Contacto</a>
+                                  <a className="nav-link" >Contacto</a>
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
                             </li>
                         </ul>
                     </div>
