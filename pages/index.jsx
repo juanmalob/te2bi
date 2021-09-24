@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-
+//esto se ejecuta en el cliente
 export default function Home() {
   return (
 
@@ -18,9 +18,9 @@ export default function Home() {
         <p className="display-3 text-center">
           Get started by editing{' '}
         </p>
-
-     
+            
 
     </Layout>
   )
 }
+
